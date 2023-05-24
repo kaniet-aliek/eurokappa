@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="email-authorization.css">
+    <title>email authorization</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sign-up__section">
+            <header>
+                <h1 class="sign-up__title">Авторизация врача</h1>
+                <p class="description">в личном кабинете Eurokappa</p>
+            </header>
+
+            <main>
+                <button class="btn google" type="button" href="#">Войти с Google</button>
+                <button class="btn apple" type="button" href="#">Войти с Apple</button>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Или введите email/телефон</legend>
+                        <input type="email" value="Email" name="email" id="email" required>
+                        <input type="text" value="Пароль" name="password" id="password" required>
+
+                        <input type="checkbox" value="" name="checkbox" id="checkbox" required>
+                        <label for="checkbox" class="fake-checked" ></label>
+                        <label for="checkbox">Я принимаю политику конфиденциальности</label>
+                        <button id="" name="button" type="button" class="btn">Войти</button>
+                    </fieldset>
+                </form>
+
+                <div class="sign-up">
+                    <p class="registration">Регистрация</p>
+                    <p class="password">Забыли свой пароль? <span> Восстановить</span></p>
+
+                </div>
+
+                <div class="sign-up__footer">
+                    <svg></svg>
+                    <p class="language">Русский</p>
+                    <p class="contacts">Контакты</p>
+                </div>
+            </main>
+        </div>
+        <div class="sidebar__section">
+            <div class="sidebar__header">
+                <img class="logo" src="./img/Group.jpg" alt="eurokappa logo">
+                <h1 class="sidebar__title">Выравнивание зубов 
+                    никогда не было 
+                    таким простым!</h1>
+            </div>
+
+            <img src="./img/Bank account management using a cell phone.png" alt="bank account pic" class="sidebar__img">
+        </div>
+    </div>
+</body>
+</html>

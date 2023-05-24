@@ -1,0 +1,104 @@
+:root{
+    --dark-gray: hsla(231, 35%, 15%, 1);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsla(0, 0%, 100%, 1);
+    --background-linear: linear-gradient(147.63deg, #3192D0 0.81%, #36ABFF 100.04%);
+    --gray-700: hsla(231, 12%, 42%, 1);
+    --gray-400: hsla(240, 10%, 74%, 1);
+    --button: hsla(203, 63%, 50%, 1);
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+  
+  
+  
+  html, body {
+    height: 100%;
+  }
+  
+  
+  
+  
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+ 
+ 
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+ 
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+body{
+    max-width: 1400px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--very-light-gray);
+}
+
+.container{
+    width: 902px;
+    height: 705px;
+    margin: 15% auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.sign-up__section{
+    width: 510px;
+    background-color: var(--white);
+
+}
+
+.sign-up__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.sign-up__title, .description{
+    text-align: center;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.sidebar__section{
+    width: 392px;
+    height: 705px;
+    background-color: var(--very-light-gray);
+}
+
+
+
